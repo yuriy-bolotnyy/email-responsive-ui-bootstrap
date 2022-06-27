@@ -13,20 +13,108 @@
   <div class="container brdr">
     <div class="row brdr">
 
+        <!-- Left screen column for mails list and search bar, etc -->
         <div class="
           iphone-se-xs-375 col-12 
           ipad-mini-1024 col-lg-5
           macbook-pro-2880 col-xl-4
           brdr
-          "> Mails List
+          ">
+            <div class="d-grid gap-2 pt-2">
+              <!-- Search bar -->
+              <div> 
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              </div>  
+
+              <!-- Buttons -->
+              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">All
+                  <span class="badge bg-primary rounded-pill">35</span>
+                </label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">Important
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">Other
+                  <span class="badge bg-primary rounded-pill">21</span>
+                </label>
+              </div> 
+        
+              <!-- Mails List -->
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small>3 days ago</small>
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small>And some small print.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small class="text-muted">And some muted small print.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action active">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small>3 days ago</small>
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small>And some small print.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small class="text-muted">And some muted small print.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small class="text-muted">And some muted small print.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small class="text-muted">And some muted small print.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                  <p class="mb-1">Some placeholder content in a paragraph.</p>
+                  <small class="text-muted">And some muted small print.</small>
+                </a>
+              </div> 
+            </div>
+
         </div>
 
+        <!-- Right screen part - for mail detailed view -->
         <div class="
           iphone-se-xs-375 d-none d-sm-block   <!-- hide on screens smaller than sm (small) -->
           ipad-mini-1024 col-lg-7
           macbook-pro-2880 col-xl-8
           brdr
-          "> Mail Detail view
+          gx-4"> 
+            Mail Detail view
         </div>
       
     </div>
